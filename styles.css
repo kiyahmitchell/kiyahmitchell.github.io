@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-box {
+    height: 200px;
+    width: 300px;
+    border: 5px solid red;
+    margin: 15px;
+}
+
+.box-overlay {
+    text-align: center;
+    padding: 80px;
+}
