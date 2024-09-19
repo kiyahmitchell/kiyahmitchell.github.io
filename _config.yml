@@ -1,3 +1,8 @@
-url: "https://kiyahmitchell.github.io"
-baseurl: ""
-title: "Kiyah Mitchell"
+title: Kiyah Mitchell
+description: A personal portfolio site
+baseurl: ""  # leave it empty if you're using the root of the GitHub Pages domain
+url: "https://kiyahmitchell.github.io/"  # Update with your GitHub username and repo name
+
+# Build settings
+markdown: kramdown
+theme: minima  # You can choose a theme if you want
