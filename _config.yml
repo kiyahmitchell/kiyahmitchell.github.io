@@ -14,5 +14,5 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalink settings
-permalink: pretty
+permalink: pretty 
 
