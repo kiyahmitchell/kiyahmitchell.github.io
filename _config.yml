@@ -1,8 +1,18 @@
+# Site settings
 title: Kiyah Mitchell
-description: A personal portfolio site
-baseurl: ""  # leave it empty if you're using the root of the GitHub Pages domain
-url: "https://kiyahmitchell.github.io/"  # Update with your GitHub username and repo name
+description: A portfolio with creative projects.
+url: "https://kiyahmitchell.github.io"
+baseurl: "" # Leave empty if your site is at the root
+
+# Author settings
+author:
+  name: "Kiyah Mitchell"
+  email: ""
 
 # Build settings
 markdown: kramdown
-theme: minima  # You can choose a theme if you want
+highlighter: rouge
+
+# Permalink settings
+permalink: pretty
+
