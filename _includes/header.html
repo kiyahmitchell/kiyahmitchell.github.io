@@ -11,17 +11,11 @@
   </head>
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
-      <nav>
+      <nav class="navbar">
         <ul>
           <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-          <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
         </ul>
       </nav>
-      <div class="mode-toggle">
-        <i id="mode-icon" class="bx bx-sun" onclick="toggleMode()"></i>
-      </div>
     </header>
 
     <main>
