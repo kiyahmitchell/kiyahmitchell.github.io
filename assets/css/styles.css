@@ -1,9 +1,44 @@
+/* Media Queries */
+@media (max-width: 768px) {
+  .section-one {
+    flex-direction: column;
+  }
+  .left-side,
+  .right-side {
+    flex: none;
+    width: 100%;
+  }
+  .about-me-desc {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-icons i {
+    font-size: 30px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .portfolio-container {
+    gap: 15px;
+  }
+  .portfolio-item {
+    width: 90%;
+  }
+}
+
 /* Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Header */
@@ -210,4 +245,5 @@ footer {
   position: relative;
   font-size: 12px;
   margin-top: auto;
+  width: 100%;
 }
