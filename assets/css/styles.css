@@ -158,7 +158,6 @@ header {
   outline-offset: 2px;
 }
 
-
 .social-media {
   margin-top: 20px;
 }
@@ -248,7 +247,6 @@ header {
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
 
-
 .portfolio-item:hover img {
   transform: scale(1.1);
 }
@@ -259,10 +257,17 @@ header {
   right: 10px;
   display: flex;
   gap: 5px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 5px;
+}
+
+.tech-icon i {
+  color: #f2efeb; /* Icon color (white or light color for contrast) */
+  font-size: 18px; /* Icon size */
 }
 
 .tech-icon:hover {
-  font-size: 16px;
+  font-size: 20px; /* Slightly bigger icon on hover */
 }
 
 /* Footer */
