@@ -138,6 +138,11 @@ header {
   background-color: var(--primary-color);
   color: var(--text-dark);
   transition: background-color var(--transition-speed);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .email-button:hover,
@@ -209,7 +214,7 @@ header {
 }
 
 .portfolio-title {
-  color: #f2efeb;
+  color: var(--text-dark);
   margin-bottom: 40px;
 }
 
@@ -239,7 +244,7 @@ header {
 }
 
 .portfolio-item:hover {
-  transform: scale(1.1) rotate(2deg);
+  transform: scale(1.1);
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
 
