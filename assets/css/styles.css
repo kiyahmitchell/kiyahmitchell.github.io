@@ -13,12 +13,15 @@
   .about-me-desc {
     padding: 20px;
   }
-}
-
-@media (max-width: 768px) {
   .tech-icons i {
     font-size: 30px;
     margin: 10px;
+  }
+  .portfolio-title {
+    font-size: 1.5rem;
+  }
+  .about-me-desc {
+    font-size: 1rem;
   }
 }
 
@@ -29,6 +32,15 @@
   .portfolio-item {
     width: 90%;
   }
+}
+
+:root {
+  --primary-color: #f2c744;
+  --secondary-color: #1c2120;
+  --text-light: #f2efeb;
+  --text-dark: #1c2120;
+  --spacing: 20px;
+  --transition-speed: 0.3s;
 }
 
 /* Global Styles */
@@ -111,8 +123,7 @@ header {
 }
 
 .about-me-desc {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding: calc(var(--spacing) * 3);
 }
 
 .profile-picture {
@@ -124,14 +135,24 @@ header {
 
 .email-button,
 .portfolio-button {
-  background-color: #f2c744;
-  color: #1c2120;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+  background-color: var(--primary-color);
+  color: var(--text-dark);
+  transition: background-color var(--transition-speed);
 }
+
+.email-button:hover,
+.portfolio-button:hover {
+  background-color: var(--text-light);
+  color: var(--secondary-color);
+}
+
+.email-button:focus,
+.portfolio-button:focus,
+.navbar a:focus {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
 
 .social-media {
   margin-top: 20px;
@@ -218,9 +239,10 @@ header {
 }
 
 .portfolio-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
+
 
 .portfolio-item:hover img {
   transform: scale(1.1);
