@@ -234,6 +234,10 @@ header {
   gap: 5px;
 }
 
+.tech-icon:hover {
+  font-size: 16px;
+}
+
 /* Footer */
 footer {
   background-color: #1c2120;
